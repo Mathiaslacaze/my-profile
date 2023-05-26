@@ -1,0 +1,45 @@
+body {
+    background-color: #84A9C0;
+    text-align: center;
+    font-family: serif;
+    font-size: 16px;
+
+
+}
+  
+h1 {
+    letter-spacing: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: #FF6F59;
+}
+h2 {
+    text-align: center;
+    color: #373E40;
+}
+head {
+    letter-spacing: 100px;
+
+}
+h1, h2, h3{
+    font-family: Courier;
+}
+a {
+    color: #305252;
+    text-decoration:!important;
+}
+a:hover {
+    color: #FF6F59;
+    font-size: 50px;
+    font-family: cursive;
+}
+#logo{
+    width: 400px;
+    border-radius: 10%;
+}
+div {
+    border: 10px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 20px;
+}
