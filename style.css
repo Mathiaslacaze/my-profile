@@ -1,45 +1,115 @@
 body {
-    background-color: #84A9C0;
-    text-align: center;
-    font-family: serif;
-    font-size: 16px;
-
-
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 20px;
 }
-  
+
 h1 {
-    letter-spacing: 10px;
-    font-size: 45px;
-    text-align: center;
-    color: #FF6F59;
+  color: #ff5500;
+  text-align: center;
 }
-h2 {
-    text-align: center;
-    color: #373E40;
-}
-head {
-    letter-spacing: 100px;
 
+h2 {
+  color: #ff5500;
 }
-h1, h2, h3{
-    font-family: Courier;
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
-a {
-    color: #305252;
-    text-decoration:!important;
+
+li {
+  margin-bottom: 10px;
 }
-a:hover {
-    color: #FF6F59;
-    font-size: 50px;
-    font-family: cursive;
+
+p {
+  line-height: 1.5;
 }
-#logo{
-    width: 400px;
-    border-radius: 10%;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 20px;
+  text-align: center
 }
-div {
-    border: 10px;
-    margin: 20px auto;
-    box-shadow: 2px 2px 3px black;
-    border-radius: 20px;
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #456
+}
+
+.header {
+  background-image: url("nba_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 200px
+}
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.player-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.footer a {
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  font-size: 18px;
+  color: #000000;
+}
+.footer a img {
+  transition: all 0.3s ease;
+}
+.footer {
+  text-align: center;
+}
+
+.footer a img {
+  transition: all 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer a:hover img {
+  transform: scale(1.2);
+}
+
+.footer a:hover {
+  font-size: 18px;
+  color: #000000;
+}
+.footer a:hover img {
+  transform: scale(1.2);
+}
+
+.footer a:hover {
+  font-size: 18px;
+  color: #000000;
+}
+.spurs-logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.nba-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px; 
+  margin-top: 20px; 
 }
